@@ -21,7 +21,7 @@ As you can probably tell, from looking at the script, I was also experimenting w
 
 ![](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4map.png)
 
-Doesn't the map look better by the year 2008?  There is many more green states in the map by this time.
+Doesn't the map look better by the year 2008?  There are many more green states in the map by this time, especially compared with 2002.
 
 There may be some issues with this plot.  For example, the two parts of Michigan are plotting in two different colors.  And, Wisconsin doesn't seem to be plotting in the correct color.  I checked some of the numbers, both by looking at the actual numbers, and also by referring to the bar chart.  The plot looks *basically* correct.  So far, the two above mentioned items are the only discrepancies that I have found.
 
