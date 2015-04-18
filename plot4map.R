@@ -28,7 +28,7 @@ names(dat)[3] <- "Emissions"
 dat <- transform(dat, Emissions = Emissions / 1.e3)
 years <- c("1999","2002","2005","2008")
 
-png("plot4.png", width=480,height=480)
+png("plot4map.png", width=480,height=480)
 par(mfrow=c(2,2),xpd=NA,mar=c(1,1,1,1),oma=c(0.25,0.25,2,0.25))
 colors <- c("green","yellow","red1","red3")
 mapply(function(yr) {
