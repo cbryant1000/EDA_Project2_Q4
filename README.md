@@ -18,3 +18,5 @@ In particular, this project consists of some experiments with displaying EPA PM2
 ![](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4map.png)
 
 3. plot4ggmap.R is the most recent attempt.  This script uses the ggmap (ggplot2) function to plot the emission data on a map of the United States.
+
+**CAVEAT: ** I don't claim to be an expert at R programming.  Some of the data manipulation steps in the above scripts may be kind of messy and kludgey.  But, they get the job done.  The scripts could probably be cleaned up at bit, from this point of view, and be made more efficient.
