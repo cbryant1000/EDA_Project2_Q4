@@ -13,15 +13,10 @@ As you can probably tell, from looking at the script, I was also experimenting w
 
 ***
 
-1. [plot4.R](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4.R) was the first attempted solution to this problem.  No maps were involved.  Instead, a barchart with facets was created using [ggplot2](http://ggplot2.org/).  This plot enabled me to get an initial *look* at the data.
+1. [plot4.R](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4.R) was the first attempted solution to this problem.  No maps were involved.  Instead, a barchart with facets was created using [ggplot2](http://ggplot2.org/).  This plot enabled me to get an initial *look* at the data. ![](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4.png)
 
-![](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4.png)
-
-2. [plot4map.R](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4map.R) was the second attempt.  This script uses the 'map' plotting function from the [maps package](http://cran.r-project.org/web/packages/maps/index.html).  The motivation behind this plot was to explore the relationship of emissions to geographic location on a map of the United States.
-
-![](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4map.png)
-
-Doesn't the map look better by the year 2008?  There are many more green states in the map by this time, especially compared with 2002.
+2. [plot4map.R](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4map.R) was the second attempt.  This script uses the 'map' plotting function from the [maps package](http://cran.r-project.org/web/packages/maps/index.html).  The motivation behind this plot was to explore the relationship of emissions to geographic location on a map of the United States. 
+![](https://github.com/cbryant1000/EDA_Project2_Q4/blob/master/plot4map.png) Doesn't the map look better by the year 2008?  There are many more green states in the map by this time, especially compared with 2002.
 
 There may be some issues with this plot.  For example, the two parts of Michigan are plotting in two different colors.  And, Wisconsin doesn't seem to be plotting in the correct color.  I checked some of the numbers, both by looking at the actual numbers, and also by referring to the bar chart.  The plot looks *basically* correct.  So far, the two above mentioned items are the only discrepancies that I have found.
 
